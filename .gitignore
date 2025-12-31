@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data
+# Raw data besar / asli (jangan dipublish)
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Processed data (BOLEH DIPUBLIKASI)
+# JANGAN ignore CSV
